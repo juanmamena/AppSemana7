@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="AppSemana7.Login" NavigationPage.HasNavigationBar="False">
+  <ScrollView>
+        <StackLayout>
+            <Frame BackgroundColor="#15497B" Padding="24" CornerRadius="0">
+                <Image Source="https://sbsconsulting.com.ec/wp-content/uploads/2018/01/LOGO-UISRAEL-768x209.png "/>
+            </Frame>
+            <Label Text="BIENVENIDO AL SISTEMA"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+
+            <Label Grid.Row="0" Grid.Column="0" Text="Usuario:" VerticalTextAlignment="Center" FontAttributes="Bold" FontSize="Subtitle"></Label>
+            <Entry Grid.Row="0" Grid.Column="1" x:Name="txtUsuario" x:Uid="txtUsuario" Placeholder="Usuario"></Entry>
+            <Label Grid.Row="1" Grid.Column="0" Text="Contraseña:" VerticalTextAlignment="Center" FontAttributes="Bold" FontSize="Subtitle"></Label>
+            <Entry Grid.Row="1" Grid.Column="1" x:Name="txtPassword" x:Uid="txtPassword" Placeholder="Contraseña" IsPassword="True"></Entry>
+            <Button Grid.Row="2" Grid.Column="0" x:Name="btnLogin" x:Uid="btnLogin" Text="Ingresar" BackgroundColor="#21A765" TextColor="White" Clicked="btnLogin_Clicked"></Button>
+            <Button Grid.Row="2" Grid.Column="1"  x:Name="btnRegistro" x:Uid="btnRegistro" Text="Registrar" BackgroundColor="#21A765" TextColor="White" Clicked="btnRegistro_Clicked"></Button>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

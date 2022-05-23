@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="AppSemana7.Elemento" NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+             <Frame BackgroundColor="#15497B" Padding="24" CornerRadius="0">
+                <Image Source="https://sbsconsulting.com.ec/wp-content/uploads/2018/01/LOGO-UISRAEL-768x209.png "/>
+            </Frame>
+            <Label Text="Actualizar -Eliminar"/>
+            <Entry x:Name="txtId" Placeholder="Id" IsEnabled="False"/>
+            <Entry x:Name="txtNombre" Placeholder="Nombre"/>
+            <Entry x:Name="txtUsuario" Placeholder="Usuario"/>
+            <Entry x:Name="txtContrasena" Placeholder="Contrasena"/>
+            <Button x:Name="btnActualizar" Text="Actualizar" Clicked="btnActualizar_Clicked"/>
+            <Button x:Name="btnEliminar" Text="Eliminar" Clicked="btnEliminar_Clicked"/>
+            <Button x:Name="btnRegresar" Text="Regresar" Clicked="btnRegresar_Clicked"/>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

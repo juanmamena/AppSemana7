@@ -1,0 +1,123 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/juanmamena/Documents/JMMM/Uisrael/2022 FINAL OK/Aplicaciones Móviles/Semana7/AppSemana7/AppSemana7.Android/AppSemana7.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/juanmamena/Documents/JMMM/Uisrael/2022 FINAL OK/Aplicaciones Móviles/Semana7/AppSemana7/AppSemana7.Android/AppSemana7.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juanmamena/Documents/JMMM/Uisrael/2022 FINAL OK/Aplicaciones Móviles/Semana7/AppSemana7/AppSemana7.Android/AppSemana7.Android.csproj",
+        "projectName": "AppSemana7.Android",
+        "projectPath": "/Users/juanmamena/Documents/JMMM/Uisrael/2022 FINAL OK/Aplicaciones Móviles/Semana7/AppSemana7/AppSemana7.Android/AppSemana7.Android.csproj",
+        "packagesPath": "/Users/juanmamena/.nuget/packages/",
+        "outputPath": "/Users/juanmamena/Documents/JMMM/Uisrael/2022 FINAL OK/Aplicaciones Móviles/Semana7/AppSemana7/AppSemana7.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/juanmamena/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid11.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid11.0": {
+            "projectReferences": {
+              "/Users/juanmamena/Documents/JMMM/Uisrael/2022 FINAL OK/Aplicaciones Móviles/Semana7/AppSemana7/AppSemana7/AppSemana7.csproj": {
+                "projectPath": "/Users/juanmamena/Documents/JMMM/Uisrael/2022 FINAL OK/Aplicaciones Móviles/Semana7/AppSemana7/AppSemana7/AppSemana7.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid11.0": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/juanmamena/Documents/JMMM/Uisrael/2022 FINAL OK/Aplicaciones Móviles/Semana7/AppSemana7/AppSemana7/AppSemana7.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juanmamena/Documents/JMMM/Uisrael/2022 FINAL OK/Aplicaciones Móviles/Semana7/AppSemana7/AppSemana7/AppSemana7.csproj",
+        "projectName": "AppSemana7",
+        "projectPath": "/Users/juanmamena/Documents/JMMM/Uisrael/2022 FINAL OK/Aplicaciones Móviles/Semana7/AppSemana7/AppSemana7/AppSemana7.csproj",
+        "packagesPath": "/Users/juanmamena/.nuget/packages/",
+        "outputPath": "/Users/juanmamena/Documents/JMMM/Uisrael/2022 FINAL OK/Aplicaciones Móviles/Semana7/AppSemana7/AppSemana7/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/juanmamena/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

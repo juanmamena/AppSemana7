@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="AppSemana7.ConsultaRegistros" NavigationPage.HasNavigationBar="False">
+   <ScrollView>
+        <StackLayout>
+             <Frame BackgroundColor="#15497B" Padding="24" CornerRadius="0">
+                <Image Source="https://sbsconsulting.com.ec/wp-content/uploads/2018/01/LOGO-UISRAEL-768x209.png "/>
+            </Frame>
+            <Button x:Name="btnSalir" Text="Salir" Clicked="btnSalir_Clicked"/>
+            <Label Text="Listado Estudiantes"></Label>
+            <ListView x:Name="listaUsuarios" ItemSelected="listaUsuarios_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Nombre}" Detail="{Binding Usuario}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
